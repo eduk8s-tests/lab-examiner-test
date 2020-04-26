@@ -1,4 +1,4 @@
-LAB - Markdown Sample
-=====================
+LAB - Examiner Test
+===================
 
-Sample workshop content using Markdown formatting for pages.
+Workshop for testing the concept of running automatic checks on tasks.

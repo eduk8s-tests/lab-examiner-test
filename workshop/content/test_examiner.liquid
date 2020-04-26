@@ -1,0 +1,39 @@
+{% if ingress_protocol == "https" %}
+{% assign websocket_protocol = "wss" %}
+{% else %}
+{% assign websocket_protocol = "ws" %}
+{% endif %}
+
+<style>
+    .green-light {
+      height: 25px;
+      width: 25px;
+      background-color: green;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .red-light {
+      height: 25px;
+      width: 25px;
+      background-color: red;
+      border-radius: 50%;
+      display: inline-block;
+    }
+</style>
+
+<script>
+function verify_test(test) {
+  var ws = new WebSocket('{{websocket_protocol}}://{{session_namespace}}-examiner.{{ingress_domain}}');
+
+  ws.onopen = function (event) {
+    ws.send(test);
+  }
+
+  ws.onmessage = function (event) {
+    if (event.data == "passed") {
+      $("#test-"+test+"-result").removeClass("red-light");
+      $("#test-"+test+"-result").addClass("green-light");
+    }
+  }
+}
+</script>

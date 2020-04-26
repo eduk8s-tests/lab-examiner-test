@@ -1,1 +1,1 @@
-This is the initial landing page for your workshop. Include in this page a description of what your workshop is about.
+This is a workshop to demonstrate the possibilities around having a live test examiner running. That is, rather than giving users the command they have to run, you just describe what they need to do and then they work it out themselves. The text examiner process would watch what the user does and tell them when they have successfully completed the task.

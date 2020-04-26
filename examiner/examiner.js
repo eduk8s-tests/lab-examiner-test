@@ -2,7 +2,7 @@ const WebSocket = require('ws');
 const uuid = require('uuid');
 
 const tests = {
-  'pod-name-one': require('./verify-pod-name-one.js'),
+  'pod-named-one': require('./verify-pod-named-one.js'),
 };
 
 const wss = new WebSocket.Server({ port: 11111 });

@@ -4,8 +4,6 @@ metadata:
   name: lab-examiner-test
 spec:
   portal:
-    registration:
-      enabled: false
     capacity: 1
   workshops:
   - name: lab-examiner-test

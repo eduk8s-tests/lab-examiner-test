@@ -12,7 +12,13 @@
 
 In this this task you are required to deploy a pod. The name of the pod must be "one".
 
-Don't know how? One way is to execute the following command.
+Before doing so, create a watch on pods in the namespace so you can watch what happens.
+
+```execute-2
+kubectl get pods -w
+```
+
+Don't know how to deploy the required pod? One way is to execute the following command.
 
 ```execute
 kubectl run one -it --image=busybox:latest --restart=Never -- sh
@@ -38,8 +44,14 @@ exit
 
 In this task you are required to delete the pod you created above by name.
 
-Don't know how? One way is to execute the following command.
+Don't know how to delete the pod? One way is to execute the following command.
 
 ```execute
 kubectl delete pod one
+```
+
+Stop the watch for pods in the namespace.
+
+```execute-2
+<ctrl-c>
 ```

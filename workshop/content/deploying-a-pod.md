@@ -26,7 +26,7 @@ kubectl run one -it --image=busybox:latest --restart=Never -- sh
 
 You could also have manually created a ``Pod`` resource definition as a YAML or JSON file and
 
-If you use the above command, you will need to exit from the interactive shell it created before continuing.
+If you used the above command, you will need to exit from the interactive shell it created before continuing.
 
 ```execute
 exit

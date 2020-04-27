@@ -1,6 +1,6 @@
 {% include "test_examiner.liquid" %}
 
-<table class="table">
+<table class="table mb-0">
   <tbody>
     <tr>
       <td width="50px"><span class="fas fa-tasks"></span></td>
@@ -32,7 +32,7 @@ If you use the above command, you will need to exit from the interactive shell i
 exit
 ```
 
-<table class="table">
+<table class="table mb-0">
   <tbody>
     <tr>
       <td width="50px"><span class="fas fa-tasks"></span></td>

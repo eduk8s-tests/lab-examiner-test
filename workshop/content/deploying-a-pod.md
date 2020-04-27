@@ -3,8 +3,9 @@
 <table class="table">
   <tbody>
     <tr>
-      <th scope="row">{%- render "verify_test.liquid", test: "pod-named-one" -%}</th>
-      <td>Task 1: Create a pod named "one".</td>
+      <td width="50px"><span class="fas fa-tasks"></span></td>
+      <td>Create a pod named "one".</td>
+      <td width="50px">{%- render "verify_test.liquid", test: "pod-named-one" -%}</td>
     </tr>
   </tbody>
 </table>

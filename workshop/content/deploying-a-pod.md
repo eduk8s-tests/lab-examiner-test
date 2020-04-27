@@ -1,6 +1,6 @@
 {% include "test_examiner.liquid" %}
 
-<table class="table table-dark">
+<table class="table">
   <tbody>
     <tr>
       <th scope="row">{%- render "verify_test.liquid", test: "pod-named-one" -%}</th>

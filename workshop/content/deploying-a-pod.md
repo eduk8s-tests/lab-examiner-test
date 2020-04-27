@@ -5,7 +5,7 @@
     <tr>
       <td width="50px"><span class="fas fa-tasks"></span></td>
       <td>Deploy a pod with a specific name.</td>
-      <td width="50px">{%- render "verify_test.liquid", test: "pod-named-one" -%}</td>
+      <td width="50px">{%- render "verify_test.liquid", test: "deploy-pod-named-one" -%}</td>
     </tr>
   </tbody>
 </table>
@@ -19,3 +19,13 @@ kubectl run one -it --image=busybox:latest --restart=Never -- sh
 ```
 
 You could also have manually created a ``Pod`` resource definition as a YAML or JSON file and
+
+<table class="table">
+  <tbody>
+    <tr>
+      <td width="50px"><span class="fas fa-tasks"></span></td>
+      <td>Delete a pod with a specific name.</td>
+      <td width="50px">{%- render "verify_test.liquid", test: "delete-pod-named-one" -%}</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-apiVersion: training.eduk8s.io/v1alpha1
+apiVersion: training.eduk8s.io/v1alpha2
 kind: Workshop
 metadata:
   name: lab-examiner-test
@@ -6,7 +6,8 @@ spec:
   vendor: eduk8s.io
   title: Examiner Test
   description: Workshop environment to test automatic evaluation of cluster state
-  content: github.com/eduk8s-tests/lab-examiner-test
+  content:
+    files: github.com/eduk8s-tests/lab-examiner-test
   session:
     budget: medium
     applications:

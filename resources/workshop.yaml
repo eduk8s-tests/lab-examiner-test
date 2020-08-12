@@ -9,7 +9,8 @@ spec:
   content:
     files: github.com/eduk8s-tests/lab-examiner-test
   session:
-    budget: medium
+    namespaces:
+      budget: medium
     applications:
       terminal:
         enabled: true

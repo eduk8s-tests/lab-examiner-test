@@ -2,6 +2,6 @@
 ./.gitignore
 ./Dockerfile
 ./LICENSE
-..//README.md
+./README.md
 ./kustomization.yaml
 ./resources

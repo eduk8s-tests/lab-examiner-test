@@ -19,6 +19,5 @@ spec:
         enabled: true
       editor:
         enabled: true
-    ingresses:
-    - name: examiner
-      port: 11111
+      examiner:
+        enabled: true

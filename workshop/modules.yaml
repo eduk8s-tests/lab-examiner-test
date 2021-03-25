@@ -2,6 +2,8 @@ modules:
     workshop-overview:
         name: Workshop Overview
         exit_sign: Start Workshop
-    deploying-a-pod:
+    exercises/01-deploying-a-pod:
         name: Deploying a Pod
+    exercises/02-deleting-a-pod:
+        name: Deleting a Pod
         exit_sign: Finish Workshop

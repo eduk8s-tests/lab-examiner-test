@@ -3,4 +3,5 @@ name: Examiner Test
 modules:
     activate:
     - workshop-overview
-    - deploying-a-pod
+    - exercises/01-deploying-a-pod
+    - exercises/02-deleting-a-pod
